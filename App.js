@@ -9,8 +9,8 @@ export default function App() {
     {
       id: '1',
       nome: 'Felipe Alves',
-      desc: 'Mais um dia de muitos bugs',
-      imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png',
+      descricao: 'Mais um dia de muitos bugs',
+      imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
       imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto1.png',  
       liked: true, 
       likers: 1
@@ -39,7 +39,7 @@ export default function App() {
       descricao: 'Isso sim que é TI!', 
       imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png', 
       imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto4.png', 
-      liked: false, 
+      liked: true, 
       likers: 1
     },
     {
@@ -48,7 +48,7 @@ export default function App() {
       descricao: 'Boa tarde galera do insta...', 
       imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png', 
       imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto5.png',
-      liked: false, 
+      liked: true, 
       likers: 32
     }
   ]);
