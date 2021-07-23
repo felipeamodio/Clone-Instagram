@@ -73,7 +73,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         flex: 1,
         alignItems: 'center',
-        padding: 8
+        padding: 8,
+        marginLeft: 7
     },
     imgPerfil: {
         width: 50,
@@ -93,19 +94,22 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         padding: 5,
         alignItems: 'center',
-        marginBottom: 18
+        marginBottom: 18,
+        marginLeft: 7
     },
     likeIcon: {
         width: 25,
-        height: 25
+        height: 25,
     },
     commentIcon: {
         width: 25,
-        height: 25
+        height: 25,
+        marginLeft: 5
     },
     sendIcon: {
         width: 25,
-        height: 25
+        height: 25,
+        marginLeft: 5
     },
     commentBtn: {
         paddingLeft: 10
@@ -115,7 +119,7 @@ const styles = StyleSheet.create({
     },
     likes: {
         fontWeight: 'bold',
-        marginLeft: 5
+        marginLeft: 12
     },
     nameFooter: {
         fontSize: 17,
@@ -128,6 +132,7 @@ const styles = StyleSheet.create({
         fontSize: 16
     },
     legendArea: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginLeft: 7
     }
 })
