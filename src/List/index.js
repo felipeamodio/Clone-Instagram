@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         padding: 8,
-        marginLeft: 7
+        marginLeft: 5
     },
     imgPerfil: {
         width: 50,
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
         padding: 5,
         alignItems: 'center',
         marginBottom: 18,
-        marginLeft: 7
+        marginLeft: 5
     },
     likeIcon: {
         width: 25,
