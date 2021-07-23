@@ -7,26 +7,17 @@ import List from './src/List';
 export default function App() {
   const [feed, setFeed] = useState([
     {
-      id: '1',
-      nome: 'Felipe Alves',
-      descricao: 'Mais um dia de muitos bugs',
-      imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
-      imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto1.png',  
-      liked: true, 
-      likers: 1
-    },
-    {
-      id: '2', 
-      nome: 'Matheus Fraga', 
+      id: '1', 
+      nome: 'matheusfraga', 
       descricao: 'Isso sim é ser raiz!!!!!', 
       imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png', 
       imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto2.png', 
       liked: false, 
-      likers: 0
+      likers: 28
     },
     {
-      id: '3', 
-      nome: 'Jose Augusto', 
+      id: '2', 
+      nome: 'augustojose', 
       descricao: 'Bora trabalhar, hoje estou começando em um projeto novo aqui no sujeito, desde o backend ao frontend', 
       imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil3.png', 
       imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto3.png',  
@@ -34,22 +25,22 @@ export default function App() {
       likers: 3
     },
     {
-      id: '4', 
-      nome: 'Gustavo Henrique', 
+      id: '3', 
+      nome: 'g_henrique', 
       descricao: 'Isso sim que é TI!', 
       imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png', 
       imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto4.png', 
       liked: true, 
-      likers: 1
+      likers: 19
     },
     {
-      id: '5', 
-      nome: 'Guilherme Luis', 
+      id: '4', 
+      nome: 'gui_luis10', 
       descricao: 'Boa tarde galera do insta...', 
       imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png', 
       imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto5.png',
       liked: true, 
-      likers: 32
+      likers: 122
     }
   ]);
 

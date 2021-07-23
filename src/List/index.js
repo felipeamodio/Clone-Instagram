@@ -55,6 +55,7 @@ export default function List(props){
 
             {showLikes(props.data.likers)}
 
+        <View style={styles.legendArea}>
             <Text style={styles.nameFooter}>
                 {props.data.nome}
             </Text>
@@ -62,6 +63,7 @@ export default function List(props){
             <Text style={styles.descFooter}>
                 {props.data.descricao}
             </Text>
+        </View>
         </View>
     )
 }
@@ -79,7 +81,7 @@ const styles = StyleSheet.create({
         borderRadius: 25
     },
     userName: {
-        paddingLeft: 5,
+        paddingLeft: 8,
         fontSize: 20,
         color: '#000000'
     },
@@ -116,13 +118,16 @@ const styles = StyleSheet.create({
         marginLeft: 5
     },
     nameFooter: {
-        fontSize: 18,
+        fontSize: 17,
         fontWeight: 'bold',
         paddingLeft: 5
     },
     descFooter: {
         paddingLeft: 5,
         paddingBottom: 15,
-        fontSize: 15
+        fontSize: 16
+    },
+    legendArea: {
+        flexDirection: 'row'
     }
 })
