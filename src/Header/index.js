@@ -1,6 +1,9 @@
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
 
+import { FontAwesome } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
+
 export default function Header(){
     return(
         <View style={styles.header}>
@@ -11,12 +14,19 @@ export default function Header(){
                 />
             </TouchableOpacity>
             
+            <View style={styles.btnIcons}>
             <TouchableOpacity>
-                <Image 
-                    source={require('../img/send.png')}
-                    style={styles.send}
-                />
+                <FontAwesome name="plus-square-o" size={24} color="black" style={styles.plus} />
             </TouchableOpacity>
+
+            <TouchableOpacity>
+                <AntDesign name="hearto" size={24} color="black" style={styles.heart} />
+            </TouchableOpacity>
+
+            <TouchableOpacity>
+                <AntDesign name="message1" size={24} color="black" style={styles.message} />
+            </TouchableOpacity>
+            </View>
         </View>
     )
 }
@@ -38,5 +48,14 @@ const styles = StyleSheet.create({
     send: {
         width: 23,
         height: 23
+    },
+    btnIcons: {
+        flexDirection: 'row',
+    },
+    plus: {
+        paddingRight: 14
+    },
+    heart: {
+        paddingRight: 14
     }
 })
